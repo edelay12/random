@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Styles.css">
+    <Title>Random Shiz </Title>
+</head>
+<body>
+<H1 onclick="alert('Hello?');">Enter Password</H1>
+
+<h1>Form Demo</h1>
+<form>
+  <fieldset>
+    <legend>Text input</legend>
+    <p>
+      <label>Text box</label>
+      <input type = "text"
+             id = "myText"
+             value = "text here" />
+    </p>
+<h2 class="enterButton" onclick="getTxt.met1();">Enter</h2>
+<script>
+    var Name = "evan";
+    var getTxt = {
+        
+met1 : function() {
+    
+    var txt = document.getElementById("myText").value;
+
+
+ if (txt === "evan" ) {
+    alert("Correct")
+
+ } else {
+alert("nah")
+ }
+ }
+ }
+
+</script>
+</body>
+<Footer>
+
+
+
+
+</Footer>
+
+</html>
